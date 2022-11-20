@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    background-color: rgb(236, 233, 229);
+    font-family: 'Varela Round', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cvAside {
+    width: 30%;
+    height: 100%;
+    background: rgb(15, 180, 225);
+    background: linear-gradient(180deg, rgba(15, 180, 225, 1) 12%, rgba(13, 140, 207, 1) 40%, rgba(10, 88, 184, 1) 100%);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.cvAside li {
+    text-align: left;
+    list-style: none;
+}
+
+.cvMain {
+    padding: 2%;
+}
+
+.cvTxt {
+    text-align: justify;
+}
+
+.cvTxt h3 {
+    color: #1461C9;
+}
+
+.cvTxt h4 {
+    color: #1461C9;
+}
+
+#education li{
+    color: #1461C9;
+    list-style: none;
+}
+
+#education li p{
+    color: #000;
+}
+
+.links{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+article h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+aside h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #1461C9;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+li {
+    margin: 1%;
+
+    list-style: none;
+}
+
+hr {
+    border-color: #1461C9;
+}
+
+a{
+    text-align: right;
+    margin: 0.5rem 2rem;
+    color: #FFF;
+    text-decoration: none;
+}
